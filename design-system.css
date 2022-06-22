@@ -1,0 +1,96 @@
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+    }
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,body{
+min-height: 100vh;
+
+
+}
+
+/* helper classes */
+
+.full-screen {
+min-width:100vw;
+min-height: 100vh;
+
+}
+
+body {
+    margin-top: 50px;  
+
+}
+
+.menu{
+   position:fixed ;
+    background-color:rgba(80, 30, 200, 0.9) ;
+    width: 99%;
+    height: 7%;
+    margin:4px ;
+ display: flex;
+ justify-content:center;
+ background-color: rgb(70, 70, 255);
+ justify-content:space-around;
+ margin-top: -50px;
+ 
+}
+
+body{
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+a:hover{
+    background-color: red;
+transition:all ease 1s;
+  border: solid 1px rgb(148, 243, 38);
+  padding-left:13% ;
+  padding-right:13% ;
+}
+
+a{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+  
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.container{
+max-width:90%;
+margin: 0 auto;
+
+
+}
+
+section#intro{
+background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); 
+color: white;
+
+}
+
+section#quien_soy{
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+
+}
+
+section#cosas_enojar{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+
+}
+
+section#unico{
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+
+}
+
+
