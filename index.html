@@ -20,13 +20,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
 
-   
-
-    <div class="menu">
+   <div class="menu">
 
         <a href="#intro">intro</a>
         <a href="#quien_soy">quien soy</a>
@@ -37,7 +38,8 @@
         <a href="#image3">mis virtudes</a>
 
     </div>
-    <section id="intro" class="full-screen">
+
+    <section id="intro" class="full-screen" data-aos="fade-down">
        <div class="container"> 
            <h1><i class="fa-solid fa-face-grin-squint"></i>intro</h1>
         <p>hola soy carlos me gusta el queso y tambien el salami no se que escribir y bueno pues esta todo bien
@@ -55,7 +57,7 @@
 
     <h1 class="animate__animated animate__bounce">An animated element</h1>
 
-    <section id="quien_soy" class="full-screen">
+    <section id="quien_soy" class="full-screen" data-aos="fade-right">
         <div class="container"> 
         <h1>quien_soy</h1>
         <p>soy carlos ya lo dije y tengo 18 años no se mucho de esto pero bueno esta todo bien
@@ -72,7 +74,7 @@
         </div>
     </section>
 
-    <section id="cosas_enojar" class="full-screen">
+    <section id="cosas_enojar" class="full-screen" data-aos="fade-left">
         <div class="container"> 
         <h1>cosas_enojar</h1>
         <p>no hay muchas sosas que me enojan pero lo que si es cuando las personas critican en general y bueno no me
@@ -90,7 +92,7 @@
         </div>
     </section>
 
-    <section id="unico" class="full-screen">
+    <section id="unico" class="full-screen" data-aos="fade-up-left">
         <div class="container"> 
         <h1>unico</h1>
         <p>hay muchas cosas que me hacen unoco pero ahora no me acuerdo asi que bueno
@@ -107,9 +109,15 @@
         </div>
       
     </section>
+    
     <img src="Captura de pantalla (1).png" id="image1">
     <img src="inteligenciamultiple.PNG" id="image2">
     <img src="misvirtudes.png" id="image3">
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
