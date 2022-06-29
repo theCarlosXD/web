@@ -52,17 +52,16 @@ a:hover{
     background-color: red;
 transition:all ease 1s;
   border: solid 1px rgb(148, 243, 38);
-  padding-left:13% ;
-  padding-right:13% ;
+  padding-left:6% ;
+  padding-right:3% ;
 }
 
 a{
     padding: 15px;
     color: rgb(255, 255, 255);
-    font-size: 25px;
-  
-    padding-left: 120px;
-    padding-right: 120px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right:0px;
 }
 
 .container{
